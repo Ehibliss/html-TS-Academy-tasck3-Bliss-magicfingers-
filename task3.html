@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TS Academy Task3</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 15px;
+      }
+      table {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img
+          src="./images/my logo.png"
+          alt="this is a salon logo"
+          width="150"
+        />
+      </div>
+    </header>
+    <hr />
+    <main class="main">
+      <section class="main-items">
+        <header>
+          <h1>BLISS MAGICFINGERS</h1>
+        </header>
+        <p>
+          Welcome toMagic firngers ‘Braidology’ – a showcase of the diverse
+          world of braids/styles we offer. Braids are more than just a
+          hairstyle; they’re a statement, an art form, and a reflection of
+          individuality espcially in a woman. The nuances that truly set them
+          apart? Their size and length. Whether you’re drawn to the delicate
+          intricacy of thin braids or the boldness of thicker ones, every size
+          tells its own story. Similarly, the length can transform the vibe
+          completely, from short and sophisticated to long and luxurious.
+        </p>
+        <button>call us Today</button>
+        <a href=" ">Check us out</a>
+      </section>
+      <hr />
+      <section class="main-video">
+        <h2>Braiding with a Purpose</h2>
+        <p>
+          At Bliss Magicfingers, our commitment extends beyond creating
+          beautiful braids. We believe in weaving purpose into our business
+          model and giving back to the community in meaningful ways
+        </p>
+
+        <video width="100%" height="700" controls>
+          <source src="./images/blisshair.mp4" type="video/mp4" />
+          Your browser does not support this
+        </video>
+      </section>
+      <hr />
+
+      <section class="main-image">
+        <h3>Making Every Sale Count</h3>
+        <p>
+          For every braid you purchase, a designated percentage goes directly to
+          our Magicfinger causes. Your choice not only empowers you with a
+          unique style, but it also contributes to a cause that makes a lasting
+          impact.
+        </p>
+        <div class="image">
+          <img
+            src="./images/braids.jpg"
+            alt="braiding"
+            height="800"
+            width="100%"
+          />
+        </div>
+      </section>
+      <section class="main-table">
+        <h3>Healing hearts with Braids</h3>
+        <table>
+          <thead>
+            Data about the planets of our solar system (Planetary facts taken
+            from Nasa)
+          </thead>
+          <tbody>
+            <tr>
+              <th colspan="2"></th>
+              <th>Name</th>
+              <th>Mass(10 24kg)</th>
+              <th>Diameter(km)</th>
+              <th>Density(kg/m3)</th>
+              <th>Gravity(m/s2)</th>
+            </tr>
+            <tr>
+              <th rowspan="4" colspan="2">Terrestial planets</th>
+              <td>Venus</td>
+              <td>0.330</td>
+              <td>48487</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr>
+              <th rowspan="4">Jovia planets</th>
+              <td>Earth</td>
+              <td>0.330</td>
+              <td>48487</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr>
+              <th colspan="2">Gas Gaiants</th>
+              <td>Jupiter</td>
+              <td>0.330</td>
+              <td>48487</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr>
+              <th colspan="2">Ice Giants</th>
+              <td>Satum</td>
+              <td>0.330</td>
+              <td>48487</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Dwarf Planets</th>
+              <td>Uranus</td>
+              <td>0.330</td>
+              <td>48487</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr>
+              <td>Neptune</td>
+              <td>0.330</td>
+              <td>48487</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <tr>
+              <td>Pluto</td>
+              <td>0.330</td>
+              <td>48487</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
+            <!-- I still don't know how to figure out the spacing using colspan/rowspan -->
+          </tbody>
+        </table>
+      </section>
+      <hr />
+      <section class="main-form">
+        <h4>Fill the form below for your Braid Appointment</h4>
+        <form action="">
+          <div class="names">
+            <label for="fullname"> Fullname: </label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Joy Doen"
+              required
+            />
+          </div>
+          <br />
+          <div class="email">
+            <label for="email"> Email: </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="blissmagicf@gmil.com"
+            />
+          </div>
+          <br />
+          <div class="cityname">
+            <label for="cityname">City: </label>
+            <select name="city" id="city" required>
+              <option value="Ajah">Ajah</option>
+              <option value="Ikeja">Ikeja</option>
+              <option value="Festac">Festac</option>
+              <option value="Epe">Epe</option>
+              <option value="Ibeju Lekki">Ibeju Lekki</option>
+              <option value="Victoria Island">Victoria Island</option>
+              <option value="Ikoyi">Ikoyi</option>
+              <option value="Maryland">Marryland</option>
+              <option value="Agbara">Agbara</option>
+              <option value="Lekki2">Lekki2</option>
+            </select>
+          </div>
+          <br />
+          <div class="number">
+            <label for="number">Number: </label>
+            <input
+              type="number"
+              id="number"
+              name="number"
+              placeholder="please enter a valid phone number"
+              maxlength="11"
+              required
+            />
+          </div>
+          <br />
+          <div class="message">
+            <label for="message">Message: </label>
+            <textarea
+              rows="5"
+              cols="100%"
+              id="message"
+              maxlength="100"
+              required
+            >
+            </textarea>
+          </div>
+          <div class="radio">
+            <p>How should we contact You?</p>
+            <label for="title">Phone</label>
+            <input type="radio" id="title" />
+            <label for="title">Email</label>
+            <input type="radio" id="title" />
+            <label for="title">Both</label>
+            <input type="radio" id="title" required />
+          </div>
+          <div class="checkbox">
+            <p>How did you hear about us?</p>
+            <label for="title">Friend</label>
+            <input type="checkbox" id="title" />
+            <label for="title">Online</label>
+            <input type="checkbox" id="title" />
+            <label for="title">Others</label>
+            <input type="checkbox" id="title" required />
+          </div>
+          <br />
+          <input type="submit" />
+        </form>
+      </section>
+    </main>
+    <hr />
+    <section class="footer">
+      <footer>
+        <a href="#">ABOUT US</a>
+        <ul>
+          <li><a href="#">Privacy & Policy</a></li>
+          <li><a href="#">Terms & conditions</a></li>
+          <li><a href="#">My Magic friends</a></li>
+          <li><a href="#">MF Gist</a></li>
+        </ul>
+        <hr />
+        <h5>© Bliss Magicfingers, 2026. All Rights Reserved.</h5>
+      </footer>
+    </section>
+  </body>
+</html>
